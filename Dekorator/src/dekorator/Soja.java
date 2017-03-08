@@ -13,4 +13,6 @@ public class Soja extends ZutatDekorierer
     {
         return 0.15 + getGetränk().preis();
     }
+    
+    
 }

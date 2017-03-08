@@ -7,7 +7,8 @@ public class Dekorator
     {
         DunkleRöstung dR = new DunkleRöstung("Dunkle Röstung");
         Schoko s = new Schoko("Schoko",dR);
-        Milchschaum m = new Milchschaum("Milchschaum", s);
+        Soja so = new Soja("Soja", s);
+        Milchschaum m = new Milchschaum("Milchschaum", so);
         System.out.println(m.getBeschreibung());
         System.out.println(m.preis());
     }

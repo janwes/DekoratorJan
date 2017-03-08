@@ -3,7 +3,6 @@ package dekorator;
 
 public class Schoko extends ZutatDekorierer
 {
-k;
 
     public Schoko(String beschreib, Getränk g) {
         super(beschreib, g);

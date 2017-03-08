@@ -14,4 +14,6 @@ public class Milchschaum extends ZutatDekorierer
     {
         return 0.10 + getGetränk().preis();
     }
+    
+    
 }
